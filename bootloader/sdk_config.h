@@ -297,7 +297,7 @@
 // <i> The CC310 hardware-accelerated cryptography backend with reduced functionality and footprint (only available on nRF52840).
 //==========================================================
 #ifndef NRF_CRYPTO_BACKEND_CC310_BL_ENABLED
-#define NRF_CRYPTO_BACKEND_CC310_BL_ENABLED 1
+#define NRF_CRYPTO_BACKEND_CC310_BL_ENABLED 0
 #endif
 // <q> NRF_CRYPTO_BACKEND_CC310_BL_ECC_SECP224R1_ENABLED  - Enable the secp224r1 elliptic curve support using CC310_BL.
  
@@ -354,7 +354,7 @@
 // <i> The CC310 hardware-accelerated cryptography backend (only available on nRF52840).
 //==========================================================
 #ifndef NRF_CRYPTO_BACKEND_CC310_ENABLED
-#define NRF_CRYPTO_BACKEND_CC310_ENABLED 0
+#define NRF_CRYPTO_BACKEND_CC310_ENABLED 1
 #endif
 // <q> NRF_CRYPTO_BACKEND_CC310_AES_CBC_ENABLED  - Enable the AES CBC mode using CC310.
  
