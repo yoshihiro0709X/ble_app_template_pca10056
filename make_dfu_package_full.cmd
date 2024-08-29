@@ -1,0 +1,1 @@
+nrfutil pkg generate --hw-version 52 --application-version 1 --bootloader-version 1 --sd-id 0xCA --sd-req 0xB6,0xCA --application Output\Release\Exe\app.hex --bootloader Output\Release\Exe\bootloader.hex --softdevice ../../../components/softdevice/s140/hex/s140_nrf52_7.0.1_softdevice.hex --key-file private.key dfu_full.zip
